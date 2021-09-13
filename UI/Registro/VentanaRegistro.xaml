@@ -1,0 +1,28 @@
+﻿<Window x:Class="Registro.UI.Registro.VentanaRegistro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Registro.UI.Registro"
+        mc:Ignorable="d"
+        Title="VentanaRegistro" Height="450" Width="462" Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Foreground="{x:Null}">
+    <Grid Background="#FF3CD9E0">
+        <Label Content="Rol ID:" HorizontalAlignment="Left" Margin="72,40,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextID" HorizontalAlignment="Left" Margin="72,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextCreacion" HorizontalAlignment="Left" Margin="72,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312"/>
+        <Label Content="Fecha de creacion:" HorizontalAlignment="Left" Margin="72,143,0,0" VerticalAlignment="Top"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="132,354,0,0" VerticalAlignment="Top" Height="40" Width="56" Click="NuevoButton_Click"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="193,354,0,0" VerticalAlignment="Top" Height="40" Width="56" Click="GuardarButton_Click"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="254,354,0,0" VerticalAlignment="Top" Height="40" Width="56" Click="EliminarButton_Click"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Margin="209,64,0,0" VerticalAlignment="Top" Height="31" Width="68" Click="BuscarButButton_Click"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="72,94,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextNombre" HorizontalAlignment="Left" Margin="72,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312"/>
+        <Label Content="Correo:" HorizontalAlignment="Left" Margin="72,192,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextCorreo" HorizontalAlignment="Left" Margin="72,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312"/>
+        <Label Content="Direccion:" HorizontalAlignment="Left" Margin="72,241,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextDireccion" HorizontalAlignment="Left" Margin="72,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312"/>
+        <Label Content="Contraeña" HorizontalAlignment="Left" Margin="72,290,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="TextContraseña" HorizontalAlignment="Left" Margin="72,321,0,0" VerticalAlignment="Top" Width="312"/>
+
+    </Grid>
+</Window>
